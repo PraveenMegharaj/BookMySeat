@@ -1,0 +1,121 @@
+.login-container {
+  box-sizing: border-box;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+}
+.main-login{
+  background: linear-gradient(90deg, #C7C5F4, #c9d6ff);
+  overflow: hidden;
+  background-image:url('/public//Assets/Images/login.logo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  
+}
+.logo img{
+  height: 20px;
+  width: 100px;
+  margin-left: 25px;
+}
+.nav{
+  width: 50px;
+  margin-left: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  margin-right: 25px;
+}
+.navbar{
+  position: absolute;
+  width: 100%;
+  background-color: black !important;
+  color: white;
+  height:60px;
+}
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.screen__content{
+  margin-top: 70px;
+  width: 90%;
+}
+.mb-3{
+  width: 100%;
+}
+
+.forgot {
+  margin-left: 50%;
+}
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+.input-container input{
+  padding-left: 30px;
+}
+
+.input-icon {
+  position: absolute;
+  top: 37%;
+  left:10px;
+  transform: translateY(-50%); 
+}
+.input-icon2 {
+  position: absolute;
+  top: 10%;
+  transform: translateY(-50%);
+  left: 10px;
+}
+.Toastify__close-button{
+  display: none;
+}
+
+.screen {
+  background-image:url('/public//Assets/Images/login.upper.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+  margin: 2%;
+  background-color: white;
+  height: 70%; 
+  width: 350px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.login {
+  width: 100%;
+  padding: 10px;
+  
+}
+.login-container input{
+  margin-bottom:10px;
+}
+.login-container button{
+    color: #fff;
+    margin-top: 10px;
+    width:100%;
+    margin-left: 0px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .error-messageL{
+    font-size: smaller;
+    word-wrap: break-word;
+    width: 300px;
+    color: red;
+  }
+
+  .forgot, .sign-up{
+    text-decoration: underline;
+    color: hwb(207 5% 6%);
+    cursor: pointer;
+  }

@@ -1,0 +1,52 @@
+.AddNewShiftContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .addnewshiftformContainer {
+    margin-top: 2%;
+    background-color: #4ea8b2;
+    color: #fff;
+    padding: 5%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 40%;
+  }
+  
+  .addNewShiftLabel {
+    text-align: center;
+  }
+  
+  .addNewShiftInput {
+    width: 100%; 
+    padding: 2%;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px; 
+  }
+  
+  .addNewShiftButton {
+    background-color: #357d8f;
+    padding: 2%;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .addNewShiftButton:hover {
+    background-color: #1f4d5d;
+  }
+
+
+  
+  
+  @media (max-width: 768px) {
+    .formContainer {
+      width: 80%;
+    }
+  }
+  

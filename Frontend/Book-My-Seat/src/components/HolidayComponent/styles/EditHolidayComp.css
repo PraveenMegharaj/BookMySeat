@@ -1,0 +1,68 @@
+.HolidayMainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 3%;
+    width: 96%;
+  }
+  
+  .headingeditholiday {
+    margin-bottom: 2%;
+  }
+  
+  .Holiday-Select {
+    margin-bottom: 2%;
+  }
+  
+  .HolidayContainer {
+    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  
+  .HolidayCard {
+    
+    padding: 2%;
+    margin: 1%;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .addholidaybutton {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .editholiday-buttons-container{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .HolidayCard {
+    animation: slideInFromLeft 0.8s ease forwards;
+    opacity: 0; 
+  }
+  
+  

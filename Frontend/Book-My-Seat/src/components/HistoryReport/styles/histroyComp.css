@@ -1,0 +1,92 @@
+.order-details input{
+    padding: 6px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+  }
+  
+  .order-details label{
+    margin-left: 2%;
+    margin-right: 1%;
+  }
+  
+  .order-details select{
+    width: 15%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid grey;
+  }
+  
+  .order-details .logout-btn {
+    padding: 5px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .order-details .logout-btn:hover {
+    background-color: rgb(239, 53, 53);
+    cursor: pointer;
+  }
+  
+  .orderHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .orderHeader div{
+    width: 80%;
+  }
+  
+  .order-details table{
+    display: block;
+    margin-top: 2%;
+    white-space: nowrap;
+    border-spacing: 0;
+  }
+  
+  .order-details {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 2% 5%;
+  }
+  
+  .order-details table th {
+    height: 60px;
+    width: 300px;
+    text-align: left;
+    padding-left: 1%;
+    border-bottom: 1px solid grey;
+  }
+  
+  .order-details table thead{
+    background-color: rgb(168, 191, 238);
+  }
+  
+  .order-details .row1{
+    width: 5%;
+    text-align: left;
+    padding-left: 1%;
+  }
+  
+  .order-details td {
+    height: 60px;
+    text-align: left;
+    padding-left: 1%;
+    border-bottom: 1px solid grey;
+  }
+  
+  .order-details .payment-status{
+    color: green;
+    background-color: rgb(199, 223, 223);
+    padding: 0% 2% ;
+  }
+  
+  .order-details .order-status{
+    color: orange;
+    background-color: rgb(250, 217, 155);
+    padding: 0% 2% ;
+  }

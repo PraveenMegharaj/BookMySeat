@@ -1,0 +1,15 @@
+.mapcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mapcard {
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fff;
+    width: 100%;
+  }
+ 
+
+  

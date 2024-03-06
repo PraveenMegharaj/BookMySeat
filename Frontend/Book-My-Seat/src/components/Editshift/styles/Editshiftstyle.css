@@ -1,0 +1,57 @@
+.ExistingShiftContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Editcard {
+  margin-top: 2%;
+  background-color: #4ea8b2;
+  color: #fff;
+  padding: 5%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 40%;
+}
+
+.EditshiftForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.editshiftlabel {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.editshiftselect, .editshiftbutton, .editshiftinput {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.editshiftbutton {
+  background-color: #357d8f;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.editshiftbutton.delete {
+  background-color: #d9534f;
+}
+
+.editshiftbutton:hover {
+  background-color: #1f4d5d;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px; 
+}
+
+

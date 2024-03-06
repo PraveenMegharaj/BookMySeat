@@ -1,0 +1,53 @@
+.firstfloor-header {
+    display: flex;
+    gap: 5%;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  .training-container{
+    display: flex;
+    flex-direction: row;
+  }
+  .training-seat-map-container{
+    height: max-content;
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid #000;
+    display: grid;
+    border-radius: 15px;
+    background-color: #ebe7e74d;
+  }
+
+  .training-front-desk {
+    height: 50%;
+  }
+  .training-seat-map-layout-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .seats-row {
+    display: flex;
+    width: 50%;
+    margin: 5%;
+  }
+
+  .first-row {
+    margin: auto;
+    margin-top: 10px;
+    width: 70%;
+    height: 100px;
+    text-align: center;
+  }
+  .first-room-1,.first-room-2,.first-room-3{
+    border-radius: 20px;
+    margin: 5%;
+    display: flex;
+    padding: 10%;
+    justify-content: center;
+  }
+
+
+  
+ 
+ 
+ 

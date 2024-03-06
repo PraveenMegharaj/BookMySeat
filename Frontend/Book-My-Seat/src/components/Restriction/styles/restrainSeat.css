@@ -1,0 +1,30 @@
+.restrain-layout{
+  width: 100%;
+}
+.restrain-header{
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  margin: 3% 1%;
+}
+.restrain-head{
+  text-align: center;
+}
+.restrain-input{
+  width: 60%;
+}
+.restrain-dropdown{
+  width: 20%;
+}
+.restrain-button{
+  width: 20%;
+}
+tbody .pinned-row {
+  background-color: lavender; 
+  font-weight: bold; 
+  color: #333; 
+}
+tr input[type="checkbox"] {
+  width: 17px; 
+  height: 17px; 
+}

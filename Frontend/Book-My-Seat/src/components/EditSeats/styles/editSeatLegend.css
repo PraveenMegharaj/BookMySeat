@@ -1,0 +1,19 @@
+.legend-container {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+  gap: 5%;
+}
+.legend-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.legend-seat{
+
+  height: 30px;
+  width: 30px;
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
+}

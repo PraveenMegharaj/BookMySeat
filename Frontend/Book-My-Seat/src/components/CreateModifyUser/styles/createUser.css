@@ -1,0 +1,49 @@
+.createUser-container {  
+    width: 70%;
+    margin: auto;
+    height: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    
+}
+  
+.createUser-card {
+    padding: 10px;
+    border-radius: 15px;
+}
+.error-messageC{
+    color: red;
+    font-size: smaller;
+}
+.createUser-container button{
+    color: #fff;
+    margin-top: 10px;
+    width:100%;
+    margin-left: 0px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .Name{
+    display: flex;
+    gap: 5px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .createUser-container {
+        width: 80%; 
+    }
+
+    .createUser-card {
+        padding: 8px;
+    }
+
+    .Name {
+        flex-direction: column;
+    }
+
+    .fname {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+}

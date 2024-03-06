@@ -1,0 +1,61 @@
+.secondFloor-container{
+  width: 100%;
+}
+.second-seat-map-container{
+  height: 120vh;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  border-radius: 25px;
+  background-color: #F3F2EF;
+}
+.second-seat-map-layout-row1{
+  display: grid;
+  grid-template-columns: 0.6fr 0.7fr 0.9fr 0.9fr 1.5fr 0.7fr;
+}
+.second-seat-map-layout-row2{
+  display: grid;
+  grid-template-columns: 1fr 0.8fr 1.2fr 1.2fr 1.2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.second-seat-map-layout-row3 {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1.2fr 0.7fr;
+}
+
+.second-room-1,.second-room-2,.second-room-3,.second-room-4,.second-room-5,.second-room-6,.second-room-7,.second-room-8,.second-room-9,.second-room-10,.second-room-11,.second-room-12,.second-room-13,.second-room-14,.second-room-15,.second-room-16{
+  border-radius: 20px;
+  margin: 5%;
+  display: flex;
+  padding: 5%;
+  justify-content: center;
+}
+.second-room-7, .second-room-8, .second-room-9, .second-room-10, .second-room-11, .second-room-12 {
+  grid-row: span 2; 
+}
+
+.second-room-8 {
+  grid-row: span 1; 
+}
+.second-meeting-table,.second-staircase-1,.second-toilet,.second-serverroom,.second-staircase-2,.second-conference-1, .second-conference-2, .second-meeting-table{
+  width: 80%;
+  background-color: paleturquoise;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  text-align: center;
+}
+.second-staircase-1, .second-staircase-2{
+  background-color: pink;
+}
+.second-toilet{
+  background-color: lightgoldenrodyellow;
+}
+.second-serverroom{
+  background-color: lightgoldenrodyellow;
+}
+.second-conference-1, .second-conference-2{
+  background-color: palegreen;
+}

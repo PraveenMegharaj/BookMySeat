@@ -1,0 +1,109 @@
+.userBookingContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
+}
+
+.userBookingCard {
+  box-sizing: border-box;
+  padding: 2%;
+  border-radius: 8px;
+  /* background-color: #f5f5f5; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1%;
+  overflow: hidden;
+  width: 100%;
+  transition: height 0.3s ease-in-out;
+
+}
+
+.bookingHeader {
+  text-align: center;
+  color: #333;
+}
+
+.bookingDetail {
+  display: flex;
+  margin-bottom: 1%;
+}
+
+.detailLabel {
+  font-weight: bold;
+  margin-bottom: 1%;
+  color: #555;
+}
+
+.detailValue {
+  color: #333;
+}
+
+.BookingMoreButton {
+  width: 40%;
+  color: white;
+  background-color: #8BC34A;
+  padding: 2%;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal-paper {
+  background-color: white;
+  width: 90%; 
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.start-to-end {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.BackButton {
+  width: 40%;
+  color: white;
+  background-color: #FF5722; 
+  padding: 2%; 
+  border: none;
+  border-radius: 8px;
+}
+
+.BackButton:hover {
+  background-color: #E64A19; 
+}
+
+.modal-paper {
+  background-color: #fff;
+  padding: 3%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* margin: 0 auto; */
+}
+
+.modal-title {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 2%;
+}
+
+.modal-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom:2%;
+}
+
+.start-to-end {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+

@@ -1,0 +1,22 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px !important;
+  gap:20px;  
+}
+
+.search-bar input {  
+  padding: 5px;
+  width: 200px;
+  border: 1px solid black;
+}
+.search-bar button{
+ 
+  width: 100px;
+}
+.Name{
+  display: flex;
+  gap: 5px;
+}
+

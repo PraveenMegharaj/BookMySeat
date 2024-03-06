@@ -1,0 +1,19 @@
+.floorCard {
+    border: 1px solid rgb(207, 203, 203);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.BookSeatBtn {
+    float: right;
+}
+.floorName {
+    text-decoration: none;
+    color: black;
+    border: none;
+}

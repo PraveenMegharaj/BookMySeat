@@ -1,0 +1,19 @@
+.UserNavPlusContent {
+    display: flex;
+    margin: 1%;
+  }
+  
+  .user-nav-main-container {
+    width: 17%;
+    position: sticky;
+  }
+  
+  .user-Router-main-container {
+    width: 79%;
+  }
+  
+  .RouterHeader {
+    margin: 1%;
+    position: sticky;
+  }
+  

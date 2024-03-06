@@ -1,0 +1,92 @@
+.usernavbarMaincontainer{
+    margin-top: 1%;
+    display: flex;
+    
+}
+.usernavbarcontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: black; 
+    border-radius: 10px;
+    color: white;
+    height: 80vh;
+    
+    overflow: hidden; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.usernavbarheader {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 2%;
+}
+
+.usernavbaractions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.usernavbarprofile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.user-navbar-buttonstack {
+    width: 90%;
+}
+
+.usernavbarbutton {
+    width: 100%;
+    margin-bottom: 5%;
+    padding: 5%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.3em;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.usernavbarbutton.active {
+  background-color: #2e6db1; /* Green color */
+  color: white;
+}
+@media (max-width: 768px) {
+    .usernavbarcontainer {
+      position: fixed;
+      top: 10%;
+      left: 1%;
+      width: 20%;
+      border-radius: 8px;
+      height: fit-content;
+      background-color: black;
+      overflow-y: auto;
+    }
+  
+    .usernavbarheader {
+      margin-bottom: 5%;
+    }
+  
+    .usernavbaractions {
+      margin-top: 10%;
+    }
+  
+    .user-navbar-buttonstack {
+      width: 100%;
+    }
+  
+    .usernavbarbutton {
+      width: 80%;
+      margin: 3% auto;
+      padding: 3%;
+      font-size: 1em;
+    }
+  }
+  

@@ -1,0 +1,9 @@
+.Manage-Container{
+    margin-top: 3%;
+    overflow:  hidden;
+}
+.Manage-Button-Container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

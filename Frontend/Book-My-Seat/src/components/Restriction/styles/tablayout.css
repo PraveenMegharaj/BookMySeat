@@ -1,0 +1,17 @@
+.tab-container {
+  width: 100%;
+  margin: 2%;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+.content {
+  display: none;
+}
+
+.active-content {
+  display: block;
+}
+

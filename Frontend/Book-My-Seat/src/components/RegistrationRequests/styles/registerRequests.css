@@ -1,0 +1,110 @@
+.requests-container {
+  display: flex;
+ width: 100%;
+ flex-direction: row;
+}
+.requests-navbar{
+width: 20%;
+}
+.register-requests {
+width:90%;
+margin: 2%;
+}
+.register-requests-buttons {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 1%;
+}
+.cards {
+  margin: 5%;
+}
+.card {
+  width: 45%;
+  float: left;
+  border-radius: 15px;
+  margin: 2%;
+}
+.card-body{
+width: 70%;
+height: 180px;
+}
+
+.pending,.rejected,.approoved {
+width:180px;
+padding: 5px;
+border-radius: 6px;
+margin: 5px;
+border: none;
+color: white;
+} 
+.pending {
+background-color: #007bff;
+}
+
+.approoved,.approve-all{
+ background-color: green;
+}
+.rejected,.reject-all {
+background-color: rgba(210, 48, 48, 0.853);
+}
+
+
+.datepicker {
+  height: 40px;
+  padding: 5px;
+  margin:4%;
+  border-radius: 5px;
+  width: 140px;
+  border-color: rgb(164, 159, 159);
+}
+
+.sortingcomps {
+  display: flex; /* Use flexbox */
+  flex-direction: row; /* Align items vertically */
+}
+.approve-all,.reject-all {
+  width: 120px;
+  border: none;
+  border-radius: 6px;
+  height: 40px;
+  padding: 5px;
+  color: white;
+  margin-left: 5px;
+}
+.searchBar {
+  width: 60%; 
+  padding: 10px; 
+  border: 1px solid #ced4da; 
+  border-radius: 5px; 
+  font-size: 16px;
+  margin-left:10%; 
+}
+
+
+.searchBar:focus {
+  outline: none; 
+  border-color: #007bff; 
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); 
+}
+.sorting-btns {
+  display: flex;
+  flex-direction: row;
+}
+.search-bar {
+  position: relative;
+}
+.search-icon {
+  position:absolute;
+}
+
+@media screen and (max-width: 1120px) { 
+ .card {
+  clear: both;
+  width: 80%;
+ }
+ .requests-navbar {
+  width: 35%;
+ }
+
+}

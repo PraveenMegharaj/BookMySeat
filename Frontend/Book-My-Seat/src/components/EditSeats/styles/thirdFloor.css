@@ -1,0 +1,149 @@
+.thirdFloor-container{
+  width: 100%;
+}
+.third-seat-map-container{
+  height: 120vh;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 0.8fr 1.4fr 0.5fr;
+  border-radius: 25px;
+  background-color: #F3F2EF;
+}
+
+.third-seat-map-layout-row1{
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 1.5fr 0.7fr;
+}
+.third-seat-map-layout-row2{
+  display: grid;
+  grid-template-columns: 0.9fr 1.2fr 0.8fr 1fr 0.7fr;
+}
+.third-seat-map-layout-row3{
+  display: grid;
+  grid-template-columns: 0.9fr 1.2fr 2fr 0.4fr;
+}
+.third-room-1,.third-room-2,.third-room-3,.third-room-4,.third-room-5,.third-room-6,.third-room-7,.third-room-10,.third-room-11,.third-room-12,.third-room-13,.third-room-14,.third-room-15,.third-room-16{
+  border-radius: 20px;
+  margin: 5%;
+  display: flex;
+  padding: 5%;
+  justify-content: center;
+}
+.third-room-1,.third-room-2,.third-room-3,.third-room-4,.third-room-5{
+  grid-row: span 2;
+}
+.third-room-6{
+  grid-row: span 1;
+  margin-top: 2%;
+}
+.third-room-8,.third-room-9{
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  display: grid;
+  grid-row: 1fr 1fr 1fr;
+}
+.third-room-8-con1{
+  display: flex;
+  grid-row: span 1;
+  margin-bottom: 3%;
+}
+.third-room-8-con1-storeroom{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: honeydew;
+}
+.third-room-8-con1-AHU{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lavender;
+}
+.third-room-8-con2{
+  grid-row: span 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: violet;
+}
+.third-room-9-con1{
+  display: flex;
+  text-align: center;
+  grid-row: span 1;
+  margin-bottom: 3%;
+}
+.third-room-9-con1-lab{
+  width: 45%;
+  background-color: gainsboro;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.third-room-9-con1-discussion{
+  width: 55%;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.third-room-9-con2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-row: span 3;
+  background-color: blanchedalmond;
+}
+.third-room-10{
+  align-items:center
+}
+.third-room-10{
+  grid-row: span 1;
+}
+.third-room-11{
+  align-items: flex-end;
+}
+.third-room-12{
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.third-room-12-d1,.third-room-12-d2,.third-room-12-d3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: palegreen;
+  margin-bottom: 3%;
+}
+.third-room-7{
+  padding: 7%;
+}
+.third-room-7-reference{
+  background-color: khaki;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third-room-13{
+  padding: 2%;
+}
+.third-room-13-emergency{
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third-room-14-con2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blanchedalmond;
+}
+.third-room-16-store{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: honeydew
+}

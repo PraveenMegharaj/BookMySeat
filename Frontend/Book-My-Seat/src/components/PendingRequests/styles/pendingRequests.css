@@ -1,0 +1,25 @@
+.card-Body p {
+  margin-bottom: 5px;
+}
+
+
+.card-btns {
+  display: flex;
+  flex-direction: row;
+  margin-left:55%;
+}
+
+.card-container {
+  border: 1px solid rgb(152, 140, 140);
+  padding: 10px;
+  border-radius: 15px;
+  margin:3%;
+  width:60%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    width:300px;
+  }
+}

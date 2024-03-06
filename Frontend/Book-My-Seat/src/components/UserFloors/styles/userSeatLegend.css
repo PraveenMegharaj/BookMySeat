@@ -1,0 +1,18 @@
+.userSeatLegend-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+.userSeatLegend-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.userSeatLegend-seat{
+  height: 30px;
+  width: 30px;
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
+}

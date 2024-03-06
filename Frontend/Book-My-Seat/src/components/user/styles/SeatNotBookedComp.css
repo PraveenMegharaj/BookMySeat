@@ -1,0 +1,36 @@
+.SeatNotBookedComp {
+    text-align: center;
+    /* border: 2px solid red; */
+    width: 100%; 
+
+  }
+  
+  .SeatNotBookedComp-Image {
+    width: 100%; 
+    
+  }
+  
+  .SeatNotBookedComp-Message {
+    margin-top: 1%;
+  }
+  
+  .SeatNotBookedComp-Message-p {
+    font-size: x-large;
+    margin-bottom: 1%;
+
+  }
+  
+  .SeatNotBookedComp-Message-button {
+    background-color: #3498db;
+    border-radius: 8px;
+    color: #fff;
+    padding: 2%;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .SeatNotBookedComp-Message-button:hover {
+    background-color: #2980b9;
+  }
+  

@@ -1,0 +1,62 @@
+.main-register{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+  height: 100%;
+  border-radius: 15px;
+}
+.bg-image{
+    background-image:url('/public//Assets/Images/login.upper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
+.register-container{
+    width: 90%;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 4px rgba(15, 15, 15, 0.19);
+    border-radius: 15px;
+    background-color: white;
+
+}
+.register button{
+    width: 50%;
+    margin-left: 25%;
+    
+}
+.rbtn{
+    width: 50%;    
+}
+.register-navbar{
+    position: static !important;
+    width: 100%;
+}
+
+.progressbar{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.error-messageR{
+    color:red;
+    font-size: 12px;
+}
+.nav{
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    margin-left: auto;
+    flex-direction: row;
+}
+.bm{
+    margin-right: 10px;
+}

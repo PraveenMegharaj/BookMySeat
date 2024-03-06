@@ -1,0 +1,79 @@
+
+.UserDashboardFourthComp {
+  padding: 2%;
+  border-radius: 8px;
+  height: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.holidayCardContent{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.noHolidaysCard {
+    padding: 3%;
+  /* padding: 20px; */
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 8px;
+  margin: 10%;
+  
+}
+
+.holidayCard {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+
+
+}
+
+.holidayItem {
+    width: 100%;
+    padding: 3%;
+    border-radius: 8px;
+    
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+margin-top: 3%;
+  background-color: azure;
+  
+
+}
+.holidayItem:hover {
+  background-color: #f3f3f3;
+}
+.holidaycontent{
+    margin: 1%;
+}
+@media (max-width: 768px) {
+  .UserDashboardFourthComp {
+  }
+
+  .holidayCardContent {
+    box-sizing: border-box;
+  }
+
+  .holidayCard {
+    width: 100%;
+  }
+
+  .holidayItem {
+    margin-top: 2%;
+  }
+
+  .noHolidaysCard {
+    margin: 0;
+    width: 100%;
+
+
+  }
+  .noHolidaysCardParagraph{
+    font-size: 14px;
+
+  }
+}

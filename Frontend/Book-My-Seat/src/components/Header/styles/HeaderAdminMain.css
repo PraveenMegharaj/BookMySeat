@@ -1,0 +1,19 @@
+.AdminMainHeader{
+    width: 100%;   
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black; 
+    border-radius: 10px;
+    height: 70px;
+  
+  }
+
+  
+  .AdminMainheaderimage {
+    height: 30px;
+  }
+
+ 
+  

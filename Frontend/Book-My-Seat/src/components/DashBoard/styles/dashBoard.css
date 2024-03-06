@@ -1,0 +1,218 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-dashboard {
+    display: flex;
+    flex-direction: row;
+}
+
+.seat-card{
+    width: 60%; 
+    max-width: 400px; 
+    height: auto;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    position: relative;
+}
+.seat-card-2 {
+  width: 30%; 
+  max-width: 400px;
+  height: auto; 
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  position: relative;
+}
+.dashboard-container{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    
+}
+.seat-card-row-1,.seat-card-row-2 {
+    display: flex;
+    flex-direction: row;
+    width: 97%;
+    margin:20px
+}
+.seat-card-row-3{
+    width:65%;
+}
+
+.seat-card-column {
+    display: flex;
+    flex-direction: column;
+    width:98%
+}
+.seat-card-icon,.lunch-card-icon,.parking-card-icon,.monitor-card-icon,.tea-card-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 0.6rem;
+    background-color: black;
+    position: absolute;
+    top: -20px;
+    left: 15px;
+    text-align: center;
+    padding: 10px;
+
+}
+.dashboard-main-contiainer {
+  display: flex;
+  flex-direction: column;
+  width:95%;
+}
+.monitor-header,.seats-header,.lunch-header,.parking-header {
+    float: right;
+    margin:20px;
+}
+.piechart {
+    width: 70%; 
+    margin: 1%;
+    margin-top: 3%;
+    padding: 2%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-self: center;
+  
+  }
+  .card-details {
+    margin: 4%;
+    margin-top: 50%;
+    font-size: 16px;
+    font-weight: 200;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .error-message {
+    width:400px;
+    margin:5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+
+  }
+
+.main-dashboard {
+    position: relative;
+  }
+  
+  .blur-background {
+    filter: blur(5px); /* Adjust the blur intensity as needed */
+    pointer-events: none; /* Prevent interaction with the blurred background */
+  }
+  
+  .error-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure the popup appears above the blurred background */
+  }
+  
+  .popup-content {
+    text-align: center;
+  }
+  
+  .popup-content h3 {
+    margin-bottom: 10px;
+  }
+  
+  .popup-content button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .popup-content button:hover {
+    background-color: #0056b3;
+  }
+  .selected {
+   opacity: 0.7;
+  }
+  
+  @media screen and (max-width: 768px) {
+   
+  
+    .seat-card-column {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+    }
+    .seat-card,.seat-card-2 {
+      width:96%;
+      height: 230px;
+    }
+    .seat-card-row-1,.seat-card-row-2 {
+      display: flex;
+      flex-direction:column;
+    }
+  
+    h4,h6 {
+      display: none;
+    }
+    .piechart {
+      width: 400px;
+      height: 280px;
+    }
+    .seat-card {
+      height:250px;
+    }
+    .seat-card-2 {
+      height:250px;
+    }
+  
+  
+  }
+
+  @media screen and (min-width: 780px) and (max-width: 1120px) { 
+    .dashboard-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        width:100%;
+        margin: 0;
+      }
+    
+      .seat-card-column {
+        width: 100%;
+      }
+    
+      .seat-card-row-1,
+      .seat-card-row-2,
+      .seat-card-row-3 {
+        width: 90%;
+        margin: 10px;
+      }
+    
+    
+    
+      .seat-card-icon,
+      .lunch-card-icon,
+      .parking-card-icon,
+      .monitor-card-icon,
+      .tea-card-icon {
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    
+      .piechart {
+        width: 100%;
+      margin: auto;
+      }
+      h6,h4{
+         display: none;
+      }
+  }
+  

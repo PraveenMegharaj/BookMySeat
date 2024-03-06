@@ -1,0 +1,4 @@
+.booked-seat {
+    background-color: yellow;
+    cursor: not-allowed; /* Optional: Change cursor to indicate seat is not selectable */
+  }

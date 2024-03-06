@@ -1,0 +1,40 @@
+.landingsixmajorcontainer{
+  margin-top: 3%;
+}
+.landingSixmaincontainer {
+  display: flex;
+  overflow: hidden;
+  margin: 2%;
+  padding: 1%;
+}
+
+.landingsixlabel {
+  text-align: center;
+}
+
+.LandingSectionsixcard {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: #f8f8f8; 
+  color: #333; 
+  border-radius: 15px;
+  padding: 1%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  transition: transform 1.5s ease-in-out;
+}
+
+.LandingSectionsixcard.active {
+  background-color: #add8e6; 
+}
+
+.cityImage {
+  width: 100%;
+  height: 150px;
+  border-radius: 15px;
+}
+.cityname{
+  font-weight: bolder;
+  font-size: larger;
+}

@@ -1,0 +1,51 @@
+.sectiononebookseatcard {
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  height: 600px;
+
+}
+.contentBeforeButton {
+  position: absolute;
+  margin: 10%;
+  color: #fff;
+  z-index: 2;
+}
+
+.sectiontwotitle{
+  text-align: center;
+}
+.sectiontwoh2{
+  font-size: 500%;
+}
+.sectiontwoparagraph{
+  font-size: 150%;
+
+}
+
+.bookSeatButton {
+  padding: 1%;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 20%;
+  margin-left: 43%; 
+ font-size: large;
+  width: 15%;
+  
+}
+
+.cardImage {
+  width: 100%; 
+}
+
+.buttonlogo {
+  animation: rotateAnimation 3s linear infinite; 
+}
+
+
+

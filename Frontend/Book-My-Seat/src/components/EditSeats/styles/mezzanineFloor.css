@@ -1,0 +1,76 @@
+.mezzaninefloor-header {
+  display: flex;
+  gap: 5%;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.mezzaninefloor-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.mezz-seat-map-container{
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #000;
+  display: grid;
+  grid-template-rows: 0.8fr 2fr 3fr;
+  gap : 10px;
+  border-radius: 25px;
+  background-color: #F3F2EF;
+}
+.mezz-seat-map-layout-row1{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.mezz-seat-map-layout-row2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+.mezz-seat-map-layout-row3 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+.mezz-room-1,.mezz-room-2,.mezz-room-3,.mezz-room-4,.mezz-room-5,.mezz-room-6,.mezz-room-7,.mezz-room-8,.mezz-room-9,.mezz-room-10{
+  border-radius: 20px;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+.mezz-room-1,.mezz-room-2,.mezz-room-3 {
+  justify-content: center;
+  align-items: center;
+}
+.mezz-room-4 {
+  display: flex;
+  margin-top: 50px;
+}
+.mezz-room-9 {
+  grid-column: 3 / span 2 
+}
+.mezz-room-10 {
+  grid-column: 5 / span 1; 
+}
+.mezz-office-table {
+  width: 120px;
+  height: 60px;
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.mezz-ITSupport-room{
+  width: 280px;
+  background-color: lightcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+

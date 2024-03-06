@@ -1,0 +1,43 @@
+.adminprofile-container {
+  margin:  2%;
+  display: flex;
+}
+
+.adminprofile-layout{
+  display: flex;
+  width: 100%;
+  padding: 0 2% 2% 2%;
+  gap: 3%;
+}
+
+.adminprofile-card{
+  width: 60%;
+  display: flex;
+}
+.adminprofile-avatar{
+  width: 35%;
+  background-color: lightcyan;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 4%;
+  text-align: center;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+
+}
+.adminprofile-info{
+  width: 80%;
+  background-color:lightblue;
+  padding: 4%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.adminprofile-avatar-img{
+  width: 85%;
+}
+
+.adminprofile-info-hr{
+  width: 80%;
+  margin: 1% 5% 5% 5%
+}

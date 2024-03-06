@@ -1,0 +1,24 @@
+.rlegend-container {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;  
+}
+.rlegend-header-container{
+  display: flex;
+  width: 55%;
+  justify-content: space-evenly;
+}
+.rlegend-search{
+  width: 25%;
+}
+.rlegend-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rlegend-seat{
+  height: 20px;
+  width: 26px;
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
+}

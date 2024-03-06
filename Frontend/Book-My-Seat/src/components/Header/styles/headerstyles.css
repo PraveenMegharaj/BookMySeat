@@ -1,0 +1,31 @@
+.mainheader {
+    width: 100%;   
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    align-items: center; 
+
+    
+  }
+
+  
+  .headerimage {
+    height: 30px;
+  }
+  
+  .button-container {
+    display: flex; 
+  }
+  
+  .button-container button {
+    border-radius: 12px;
+    margin-left: 5%; 
+    background-color: #add8e6; 
+    border: none;
+  }
+  .buttondesign{
+    width: 100px;
+    height: 40px;
+  }
+  
+  

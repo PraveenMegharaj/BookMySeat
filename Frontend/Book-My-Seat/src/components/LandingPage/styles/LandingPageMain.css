@@ -1,0 +1,12 @@
+.floatingheader{
+  position: relative;
+}
+.headerlanding{
+  position: absolute;
+  /* border: 2px solid red; */
+  z-index: 1;
+  /* margin-left: 5%; */
+  width: 100%;
+}
+/*  */
+

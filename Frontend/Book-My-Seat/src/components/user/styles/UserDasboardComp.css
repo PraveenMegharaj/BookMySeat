@@ -1,0 +1,50 @@
+
+
+  .user-dashboard-container {
+    display: flex;
+
+  }
+  
+  .user-dashboard-card {
+    border-radius: 8px;
+    padding: 1%;
+    margin: 1%;
+    width: 50%;
+    text-align: center;
+
+  }
+
+  .user-dashboard-subcard {
+    border-radius: 8px;
+    padding: 1%;
+    margin: 1%;
+    width: 96%;
+    text-align: center;
+    height: 49%;
+  }
+  .user-dashboard-secondsubcard{
+    display: flex;
+
+  }
+ 
+  @media (max-width: 768px) {
+    .user-dashboard-container {
+      flex-direction: column-reverse;
+      margin-left: 4%;
+
+    }
+  
+    .user-dashboard-card,
+    .user-dashboard-subcard {
+      width: 100%;
+    }
+  
+    .user-dashboard-subcard {
+      height: auto;
+    }
+  
+    .user-dashboard-secondsubcard {
+      flex-direction: column;
+    }
+  }
+  

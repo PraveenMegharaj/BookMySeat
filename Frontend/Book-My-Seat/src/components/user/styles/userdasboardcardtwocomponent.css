@@ -1,0 +1,13 @@
+.user-Dasboard-Component-two {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .user-Dasboard-Component-two-Image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  

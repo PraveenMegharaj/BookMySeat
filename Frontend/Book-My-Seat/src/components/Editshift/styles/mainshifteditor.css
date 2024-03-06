@@ -1,0 +1,39 @@
+
+.ShiftEditbuttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 1%;
+}
+
+.shiftButton {
+  padding: 12px 24px;
+  background-color: #4ea8b2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.shiftButton.active {
+  background-color: #357d8f;
+}
+@keyframes slideFromLeft {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.ShiftEditcard {
+  animation: slideFromLeft 0.5s ease-in-out; 
+}
+@media (max-width: 768px) {
+  .ShiftEditbuttonContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}

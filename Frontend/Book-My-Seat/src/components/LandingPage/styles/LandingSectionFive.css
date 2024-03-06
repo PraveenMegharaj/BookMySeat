@@ -1,0 +1,43 @@
+
+.landingFivemaincontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2%;
+}
+
+.landingSectionFivecard {
+  width: 45%;
+  padding: 1%;
+  text-align: center;
+}
+.landingsectionfivecontent{
+  margin-top: 10%;
+}
+
+.landingSectionFiveCardTitle {
+  color: #721c24; 
+  margin-top: 2%;
+ 
+}
+.maincontainertitle{
+  text-align: center;
+  color: black;
+}
+
+.cardText {
+  font-size: 18px;
+
+}
+.landingsectionFiveMap{
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .landingSectionFivecard {
+    width: 100%;
+  }
+}
